@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    background-color: #151515;
+    padding: 135px;
+}
+p{
+color: white;
+}
+#textoDeCima{
+    font-size: 25px;
+    color: #d7d7d7;
+}
+#textoDeBaixo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 75px;
+}
+#ponto{
+    color: #ffcb00;
+}
+.card{
+    border-radius: 5px;
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #151515;
+    height: 475px;
+    width: 800px;
+}
+#stock{
+    color: white;
+    font-size: 75px;
+    font-weight: bolder;
+}
+#box{
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+}
+#cardUm{
+    display: inline-flex;
+}
+
+#textoDoCard{
+    color: black;
+    margin-top: 45px;
+    padding: 35px;
+}
+#textoDoCard p{
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+    width: 550px;
+    text-justify: inter-word;
+}
+h2{
+    margin-top: -35px;
+    font-size: 50px;
+}
+#btn {
+    display: flex;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #000000;
+    justify-content: center;
+    font-size: 20px;
+    padding: 24px;
+    background: #ffcc00;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: color 1s ease;
+    margin-top: 30px;
+}
+#btn:hover {
+    background: #ff8c00;
+    text-decoration: none;
+    transition: color 3s ease;
+}
+#b{
+    display: flex;
+    justify-content: end;
+}

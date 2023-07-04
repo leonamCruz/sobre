@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cardao {
+    display: flex;
+}
+
+#ladoAmarelo {
+    display: flex;
+    width: 350px;
+    height: 500px;
+    background-color: #ffcb00;
+}
+
+#ladoAmarelo p {
+    margin-top: 200px;
+    margin-left: 35px;
+    color: black;
+}
+
+#ladoAmarelo img {
+    position: relative;
+    top: 13px;
+    display: inline-flex;
+}
+
+#ladoBranco {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+}
+
+form {
+    padding: 30px;
+}
+
+#nome {
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 90%;
+}
+
+#email {
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 90%;
+}
+
+#numero {
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 90%;
+}
+
+textarea {
+    margin-bottom: 15px;
+    width: 90%;
+    resize: none;
+    padding: 15px;
+}
+#btn{
+    margin-right:10%;
+}
