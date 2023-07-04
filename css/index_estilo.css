@@ -7,7 +7,9 @@
 }
 section{
     background-color: #151515;
-    padding: 135px;
+    padding-left: 135px;
+    padding-top: 135px;
+    padding-bottom: 135px;
 }
 #notbook{
     position: absolute;
@@ -137,6 +139,8 @@ h2{
 @media(max-width: 1230px){
     #notbook{
         opacity: 0;
+        height: 0;
+        width: 0;
     }
 }
 @media(max-width: 799px){
