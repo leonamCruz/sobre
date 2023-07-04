@@ -9,6 +9,13 @@ section{
     background-color: #151515;
     padding: 135px;
 }
+#notbook{
+    position: absolute;
+    top: 171px;
+    margin-left: 54%;
+    height: 450px;
+    width: auto;
+}
 p{
 color: white;
 }
@@ -45,6 +52,12 @@ color: white;
     margin-top: 25px;
     height: 250px;
     width: 250px;
+    transition: 2s ease;
+}
+#box:hover {
+    transition:0.5s ease;
+    height: 275px;
+    width: 275px;
 }
 #cardUm{
     display: inline-flex;
@@ -52,18 +65,17 @@ color: white;
 
 #textoDoCard{
     color: black;
-    margin-top: 45px;
     padding: 35px;
 }
 #textoDoCard p{
     color: black;
-    margin-top: 20px;
     font-size: 18px;
     width: 550px;
+    margin-top: 18px;
     text-justify: inter-word;
 }
 h2{
-    margin-top: -35px;
+    margin-top: 80px;
     font-size: 50px;
 }
 #btn {
@@ -79,7 +91,7 @@ h2{
     font-weight: bolder;
     text-decoration: none;
     transition: color 1s ease;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 #btn:hover {
     background: #ff8c00;

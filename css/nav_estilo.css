@@ -37,3 +37,17 @@ nav li:hover{
     transition: color 0.3s ease;
     color: #ffcb00;
 }
+footer{
+    background: black;
+    height: 200px;
+}
+footer p {
+    position: relative;
+    top: 45%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    color: white;
+    font-weight: bolder;
+}
