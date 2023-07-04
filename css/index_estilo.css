@@ -153,6 +153,9 @@ h2{
     #textoDeBaixo{
         font-size: 50px;
     }
+    #textoDoCard p {
+        width: 95%;
+    }
     .card{
         border-radius: 5px;
         display: flex;
@@ -185,7 +188,7 @@ h2{
     #textoDoCard p{
         color: black;
         font-size: 18px;
-        width: 85%;
+        width: 95%;
         text-align: justify;
     }
 }
