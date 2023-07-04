@@ -72,7 +72,7 @@ color: white;
 #textoDoCard p{
     color: black;
     font-size: 18px;
-    width: 550px;
+    width: 95%;
     margin-top: 18px;
     text-align: justify;
 
@@ -185,11 +185,6 @@ h2{
         justify-content: center;
         align-items: center;
     }
-    #textoDoCard p{
-        color: black;
-        font-size: 18px;
-        width: 95%;
-        text-align: justify;
-    }
+
 }
 
