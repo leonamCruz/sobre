@@ -7,7 +7,8 @@
 }
 header{
     background-color: #000000;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #leonam{
     position: absolute;
@@ -50,4 +51,20 @@ footer p {
     justify-self: center;
     color: white;
     font-weight: bolder;
+}
+@media(max-width: 799px){
+    #leonam{
+        opacity: 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    nav li{
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    nav li{
+        font-size: 14px;
+    }
 }
