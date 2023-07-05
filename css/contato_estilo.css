@@ -9,6 +9,8 @@
 
 #cardao {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 #ladoAmarelo {
@@ -19,7 +21,7 @@
 }
 
 #ladoAmarelo p {
-    margin-top: 200px;
+    margin-top: 10px;
     margin-left: 35px;
     color: black;
 }
@@ -64,7 +66,45 @@ textarea {
     resize: none;
     padding: 15px;
 }
-#btn{
+
+#btn {
     margin-top: 0;
-    margin-right:10%;
+    margin-right: 10%;
+}
+
+@media (max-width: 1310px) {
+    #cardao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ladoAmarelo {
+        width: 95%;
+        height: 150px;
+    }
+
+    #ladoBranco {
+        width: 95%;
+        height: 500px;
+        background-color: white;
+    }
+}
+
+@media (max-width: 415px) {
+    #ladoAmarelo img{
+        height: 30px;
+        width: 30px;
+    }
+    #ladoAmarelo p {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    #ladoAmarelo img {
+        position: relative;
+        top: 8px;
+        display: inline-flex;
+    }
 }
